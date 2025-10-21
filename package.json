@@ -1,0 +1,29 @@
+{
+  "name": "node-cli",
+  "version": "1.0.0",
+  "description": "测试 node 工具",
+  "main": "index.js",
+  "bin": {
+    "input-demo": "./scripts/input-demo.js"
+  },
+  "scripts": {
+    "input-demo": "node i ./scripts/input-demo.js",
+    "ora-demo": "cross-env NODE_ENV=production node ./scripts/ora-demo.js",
+    "progress-demo": "node ./scripts/progress.js",
+    "terminal-image-demo": "node ./scripts/terminal-image.js",
+    "pinyin-demo": "node ./scripts/pinyin-demo.js",
+    "wifipasswprd-demo": "node ./scripts/wifipasswprd.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "morecode",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "cross-env": "^10.1.0",
+    "inquirer": "^12.10.0",
+    "ora": "^9.0.0",
+    "pinyin": "^4.0.0",
+    "progress": "^2.0.3",
+    "terminal-image": "^4.1.0"
+  }
+}
